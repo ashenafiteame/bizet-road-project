@@ -12,7 +12,7 @@ class CountdownTimer {
         // DONATION TRACKING - UPDATE THIS VALUE!
         // ============================================
         this.donationGoal = 4000000;  // 4 Million Birr goal
-        this.currentDonation = 3730602.23;     // <-- UPDATE THIS when donations come in!
+        this.currentDonation = 3730603.23;     // <-- UPDATE THIS when donations come in!
         // ============================================
 
         // DOM Elements - Countdown
