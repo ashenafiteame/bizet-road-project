@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bizet Hagua Arega Road Project - 24 Hour Challenge</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="background-animation">
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+        <div class="floating-shape shape-4"></div>
+        <div class="floating-shape shape-5"></div>
+    </div>
+
+    <div class="container">
+        <div class="hero-section">
+            <div class="badge">⏱️ 24 HOUR CHALLENGE</div>
+            <h1 class="title">
+                <span class="title-line">Bizet Hagua Arega</span>
+                <span class="title-highlight">Road Project</span>
+            </h1>
+            <p class="subtitle">The countdown has begun. Every second counts.</p>
+            <div class="prize-text">💰 4 Million Birr Challenge 💰</div>
+        </div>
+
+        <div class="countdown-wrapper">
+            <div class="countdown-container">
+                <div class="countdown-item">
+                    <div class="countdown-value" id="hours">24</div>
+                    <div class="countdown-label">Hours</div>
+                    <div class="glow"></div>
+                </div>
+                <div class="countdown-separator">:</div>
+                <div class="countdown-item">
+                    <div class="countdown-value" id="minutes">00</div>
+                    <div class="countdown-label">Minutes</div>
+                    <div class="glow"></div>
+                </div>
+                <div class="countdown-separator">:</div>
+                <div class="countdown-item">
+                    <div class="countdown-value" id="seconds">00</div>
+                    <div class="countdown-label">Seconds</div>
+                    <div class="glow"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="donation-section">
+            <h2 class="donation-title">💵 Funds Raised</h2>
+            <div class="donation-progress-container">
+                <div class="donation-progress-bar">
+                    <div class="donation-progress-fill" id="donationFill"></div>
+                </div>
+                <div class="donation-amounts">
+                    <span class="amount-raised" id="amountRaised">0 Birr</span>
+                    <span class="amount-goal">Goal: 4,000,000 Birr</span>
+                </div>
+                <div class="donation-percent" id="donationPercent">0% of goal reached</div>
+                <div class="amount-remaining" id="amountRemaining">Remaining: 4,000,000 Birr</div>
+            </div>
+        </div>
+
+        <div class="progress-section">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <div class="progress-text">
+                <span id="progressPercent">0%</span> Time Elapsed
+            </div>
+        </div>
+
+        <div class="action-section">
+            <button class="btn-primary" id="startBtn">
+                <span class="btn-icon">▶</span>
+                Start Challenge
+            </button>
+            <button class="btn-secondary" id="resetBtn">
+                <span class="btn-icon">↻</span>
+                Reset
+            </button>
+        </div>
+
+        <div class="status-section">
+            <div class="status-card">
+                <div class="status-icon">🚀</div>
+                <div class="status-text" id="statusText">Ready to begin</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
